@@ -1,0 +1,12 @@
+.App {
+  margin: 2rem auto 0 auto;
+  max-width: 400px;
+
+  &__panel {
+    margin: 1rem 0;
+  }
+}
+
+.hidden {
+  display: none !important;
+}

@@ -1,0 +1,22 @@
+.SearchPanel {
+  position: relative;
+  align-items: center;
+
+  &__input {
+    width: auto;
+    flex-grow: 1;
+    margin: 0.5rem 3px 0.5rem 0;
+  }
+
+  &__close {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 12px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #AAA;
+    cursor: pointer;
+  }
+}
